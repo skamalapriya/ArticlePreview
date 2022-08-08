@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    @font-face {
+        font-family: ['Fraunces'];
+        src: url('/fonts/Fraunces-SemiBold.woff2') format('woff2');
+        font-weight: 700;
+        font-display: swap;
+        font-style: normal;
+    }
+}
+
+.btn{
+    @apply h-auto w-5/6 rounded-md p-3 m-3 text-sm text-white font-bold cursor-pointer xl:mt-10 xl:mb-5;
+}
